@@ -18,11 +18,42 @@ Ce dépôt centralise toute la documentation technique de ma recherche doctorale
 | `calibration_procedure.md` | Procédure de calibration des capteurs | ✅ À jour |
 
 ## Architecture BDI (vue d'ensemble)
+[Capteurs IoT] → [MQTT Broker] → [BDI-prototype] → [InfluxDB] → [Grafana Dashboard]
+↓
+[obstacle-detection]
+↓
+[Alertes / Étayage]
+## Versions
 
-## Version actuelle
+| Version | Date | Modifications |
+|---------|------|---------------|
+| v0.1 | 2026-03 | Première version : schémas d'architecture |
+| v0.2 | 2026-04 | Ajout protocole MQTT, schéma Living Lab |
+| v0.3 | (à venir) | Documentation API, manuel utilisateur final |
 
-v0.2 – Avril 2026
+## Téléchargement direct
+
+- [Architecture BDI (PDF)](./architecture_bdi.pdf) *(à venir)*
+- [Protocole MQTT (PDF)](./protocole_mqtt.pdf) *(à venir)*
+- [Schéma Living Lab (PNG)](./schema_living_lab.png) *(à venir)*
+
+## Contribution
+
+Les documents sont sous licence CC BY-SA 4.0. Toute contribution doit respecter cette licence.
 
 ## Licence
 
-CC BY-SA 4.0 – Copyright (c) 2026 A. Elbah
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+
+Copyright (c) 2026 A. Elbah
+
+Cette licence permet :
+- ✅ Partager (copier, redistribuer)
+- ✅ Adapter (remixer, transformer)
+- ✅ Usage commercial
+
+**Conditions** :
+- ✅ Attribution (citer l'auteur original)
+- ✅ Partage dans les mêmes conditions
+
+Voir le fichier [LICENSE](LICENSE) pour le texte complet.
