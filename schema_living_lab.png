@@ -1,0 +1,5 @@
+[Document à venir - Schéma complet de l'architecture BDI]
+- Flux des données (capteurs → broker → BDI → InfluxDB → Grafana)
+- Composants logiciels (BDI-prototype, obstacle-detection, dashboard)
+- Composants matériels (ESP32, capteurs Atlas Scientific)
+Version prévue : mai 2026
