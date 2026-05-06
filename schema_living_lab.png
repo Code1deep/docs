@@ -2,4 +2,4 @@
 - Flux des données (capteurs → broker → BDI → InfluxDB → Grafana)
 - Composants logiciels (BDI-prototype, obstacle-detection, dashboard)
 - Composants matériels (ESP32, capteurs Atlas Scientific)
-Version prévue : mai 2026
+Version prévue : Juillet 2026
